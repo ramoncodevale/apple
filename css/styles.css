@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizzing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fff;
+}
+
+/* Header Nav */
+header {
+  height: 46px;
+  width: 100%;
+  background-color: #424245;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon-apple {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.links {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 20px;
+}
+
+.links:hover {
+  color: #fff;
+}
+
+/* Main */
+.container-inicio {
+  margin-top: 30px;
+}
+
+.titulo-iphone,
+.titulo-ipad {
+  text-align: center;
+  color: #1d1d1f;
+  font-size: 3rem;
+  margin-top: 50px;
+}
+
+.titulo-iphone:hover {
+  color: #000;
+}
+
+.descricao {
+  text-align: center;
+  color: #1d1d1f;
+}
+
+.saiba-mais {
+  color: #06c;
+  text-align: center;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.container-mac {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.img-mac {
+  width: 500px;
+  height: 300px;
+}
+
+
+.botao-comprar-saiba {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.btn-comprar,
+.btn-saiba-mais {
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #111;
+  color: #fff;
+  margin: 0 15px;
+  border-radius: 50px;
+  font-size: 1rem;
+}
+
+.btn-comprar:hover,
+.btn-saiba-mais:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid gray;
+}
+
+.section-2 {
+  margin-top: 150px;
+}
+
+.titulo-mac,
+.titulo-ipad {
+  color: #1d1d1f;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.titulo-mac:hover {
+  color: #000;
+}
+
+.descricao-oferta {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.img-mac-apple {
+  display: flex;
+  justify-content: center;
+}
+
+.section-3 {
+  margin-top: 150px;
+}
+
+.titulo-relogio {
+  color: #1d1d1f;
+  text-align: center;
+}
+
+.titulo-relogio:hover {
+  color: #000;
+}
+
+.img-relogio-apple {
+  display: flex;
+  justify-content: center;
+}
+
+
+.section-4 {
+  margin-top: 150px;
+  
+}
+
+.container-iphone {
+}
+
+.titulo-ipod {
+  text-align: center;
+  color: #1d1d1f;
+}
+
+.titulo-ipod:hover {
+  color: #000;
+}
+
+.img-ipod-apple {
+  display: flex;
+  justify-content: center;
+}
+
+.img-ipod {
+  width: 500px;
+}
+
+
+.img-iphone {
+  width: 500px;
+}
+
+.section-full {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Footer */
+.container-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-apple {
+  color: #1d1d1f;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.titulo-apple:hover {
+  color: #000;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.fa-apple,
+.fa-twitter,
+.fa-facebook {
+  padding: 20px;
+}
