@@ -5,221 +5,159 @@
   padding: 0;
   box-sizzing: border-box;
   font-family: "Poppins", sans-serif;
+  list-style: none;
+  text-decoration: none;
 }
 
 body {
-  background-color: #fff;
+  background-color: #e8e6e7;
 }
 
-/* Header Nav */
 header {
-  height: 46px;
-  width: 100%;
-  background-color: #424245;
+  padding: 20px 70px;
+  background-color: #1d1d1f;
 }
 
-.nav {
+.navigation {
   display: flex;
-  justify-content: space-around;
-}
-
-.icon-apple {
-  color: #fff;
-  margin-bottom: 10px;
-}
-
-ul {
-  display: flex;
+  align-items: center;
   justify-content: space-between;
-  list-style: none;
-  margin-top: 10px;
 }
 
-.links {
-  color: #ccc;
-  text-decoration: none;
-  font-size: 15px;
-  padding: 20px;
+.navigation .logo {
+  width: 50px;
 }
 
-.links:hover {
+.navigation ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.navigation ul li a {
+  color: #888;
+  font-weight: 600;
+  padding-bottom: 4px;
+  transition: all 0.5s;
+}
+
+.navigation ul li a:hover {
   color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+.navigation .check {
+  color: #fff;
+  border-bottom: 1px solid #fff;
 }
 
 /* Main */
-.container-inicio {
-  margin-top: 30px;
-}
-
-.titulo-iphone,
-.titulo-ipad {
-  text-align: center;
-  color: #1d1d1f;
-  font-size: 3rem;
-  margin-top: 50px;
-}
-
-.titulo-iphone:hover {
-  color: #000;
-}
-
-.descricao {
-  text-align: center;
-  color: #1d1d1f;
-}
-
-.saiba-mais {
-  color: #06c;
-  text-align: center;
-}
-
-.img-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-
-.container-mac {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-
-.img-mac {
-  width: 500px;
-  height: 300px;
-}
-
-
-.botao-comprar-saiba {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-.btn-comprar,
-.btn-saiba-mais {
-  width: 180px;
-  height: 40px;
-  cursor: pointer;
-  background-color: #111;
-  color: #fff;
-  margin: 0 15px;
-  border-radius: 50px;
-  font-size: 1rem;
-}
-
-.btn-comprar:hover,
-.btn-saiba-mais:hover {
-  background-color: #fff;
-  color: #000;
-  border: 1px solid gray;
-}
-
-.section-2 {
-  margin-top: 150px;
-}
-
-.titulo-mac,
-.titulo-ipad {
-  color: #1d1d1f;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.titulo-mac:hover {
-  color: #000;
-}
-
-.descricao-oferta {
-  text-align: center;
-  margin-bottom: 40px;
-}
-
-.img-mac-apple {
-  display: flex;
-  justify-content: center;
-}
-
-.section-3 {
-  margin-top: 150px;
-}
-
-.titulo-relogio {
-  color: #1d1d1f;
-  text-align: center;
-}
-
-.titulo-relogio:hover {
-  color: #000;
-}
-
-.img-relogio-apple {
-  display: flex;
-  justify-content: center;
-}
-
-
-.section-4 {
-  margin-top: 150px;
-  
-}
-
-.container-iphone {
-}
-
-.titulo-ipod {
-  text-align: center;
-  color: #1d1d1f;
-}
-
-.titulo-ipod:hover {
-  color: #000;
-}
-
-.img-ipod-apple {
-  display: flex;
-  justify-content: center;
-}
-
-.img-ipod {
-  width: 500px;
-}
-
-
-.img-iphone {
-  width: 500px;
-}
-
-.section-full {
-  display: flex;
-  justify-content: space-evenly;
-}
-
-/* Footer */
-.container-footer {
-  display: flex;
-  justify-content: center;
-}
-
-.titulo-apple {
-  color: #1d1d1f;
-  text-align: center;
-  margin-top: 150px;
-}
-
-.titulo-apple:hover {
-  color: #000;
-}
-
-.icons {
+main section {
   display: flex;
   justify-content: space-between;
-  margin: 20px;
+  align-items: center;
+  padding: 5rem 10rem;
 }
 
-.fa-apple,
-.fa-twitter,
-.fa-facebook {
-  padding: 20px;
+.main-text img {
+  width: 15rem;
+  margin-bottom: 3vh;
+}
+
+.main-text h3 {
+  font-size: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.main-text p {
+  margin-bottom: 1.5rem;
+}
+
+.main-text h6 {
+  color: #999;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.main-text .btn {
+  padding: 10px 25px;
+  background-color: #0071e3;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1.5rem;
+  transition: all 0.5s;
+}
+
+.main-text .btn:hover {
+  opacity: 0.85;
+}
+
+.main-text .text h5 {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main-text .content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-text .content span {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 1px 1px #888;
+  transition: all 0.5s;
+}
+
+.main-text .content span:hover {
+  opacity: 0.8;
+}
+
+#green {
+  background-color: #384937;
+}
+
+#pink {
+  background-color: #f8ddd6;
+}
+
+#blue {
+  background-color: #225f7e;
+}
+
+#black {
+  background-color: #192028;
+}
+
+#white {
+  background-color: #f7f2ee;
+}
+
+#red {
+  background-color: #ae0617;
+}
+
+.main-img {
+  transition: all 1s ease;
+  z-index: 100;
+}
+
+.main-img img {
+  width: 500px;
+  transform: rotate(-7deg);
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #445c42;
+  clip-path: circle(800px at right 1000px);
 }
